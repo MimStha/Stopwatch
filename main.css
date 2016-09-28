@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: -webkit-linear-gradient(0deg, #87CEFA, #00BFFF, #00CED1);
+  background: -moz-linear-gradient(-90deg, #87CEFA, #00BFFF, #00CED1);
+  background: -o-linear-gradient(-90deg, #87CEFA, #00BFFF, #00CED1);
+  background: linear-gradient(-90deg, #87CEFA, #00BFFF, #00CED1);
+}
+
+.wrapper {
+  width: 600px;
+  height: 200px;
+  position: absolute;
+  margin: -100px 0 0 -300px;
+  top: 50%;
+  left: 50%;
+  -moz-border-radius: 80px 80px 80px 80px;
+  -webkit-border-radius: 80px 80px 80px 80px;
+  border-radius: 80px 80px 80px 80px;
+  -webkit-box-shadow: 10px 10px 14px 7px rgba(0, 0, 0, 0.61);
+  -moz-box-shadow: 10px 10px 14px 7px rgba(0, 0, 0, 0.61);
+  box-shadow: 10px 10px 14px 7px rgba(0, 0, 0, 0.61);
+  font-size: 50px;
+}
+
+#title {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  margin: -20px 0 0 -200px;
+  left: 50%;
+  top: -10%;
+  text-align: center;
+  font-size: 50px;
+  text-shadow: 4px 4px 6px rgba(195, 169, 158, 0.85);
+}
+
+#stopWatch {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 600px;
+  height: 100px;
+  position: absolute;
+  margin: -50px 0 0 -300px;
+  left: 50%;
+  top: 45%;
+  text-align: center;
+  font-size: 110px;
+  line-height: 0.8;
+}
+
+#buttons {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 400px;
+  height: 60px;
+  position: absolute;
+  margin: -30px 0 0 -200px;
+  left: 50%;
+  top: 85%;
+  text-align: center;
+}
+
+#buttons button {
+  width: 100px;
+  height: 40px;
+  position: relative;
+  top: -20px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: #4CAF50;
+  cursor: pointer;
+  border-radius: 40%;
+  font-size: 0.4em;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+}
+
+#buttons button:hover {
+  -webkit-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  border: 3px solid #4CEB13;
+}
+
+#buttons button:disabled {
+  opacity: 0.8;
+  cursor: not-allowed;
+  border: none;
+}
